@@ -690,10 +690,6 @@ video {
   margin-top: 2rem;
 }
 
-.mt-12 {
-  margin-top: 3rem;
-}
-
 .block {
   display: block;
 }
@@ -1052,10 +1048,6 @@ video {
   padding-left: 3rem;
 }
 
-.pl-2 {
-  padding-left: 0.5rem;
-}
-
 .pl-4 {
   padding-left: 1rem;
 }
@@ -1074,10 +1066,6 @@ video {
 
 .pt-8 {
   padding-top: 2rem;
-}
-
-.pl-8 {
-  padding-left: 2rem;
 }
 
 .text-center {
@@ -1150,6 +1138,10 @@ video {
   line-height: 1.75rem;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
 .leading-normal {
   line-height: 1.5;
 }
@@ -1180,7 +1172,7 @@ video {
 @font-face {
   font-family: "DEVANT";
 
-  src: url("../public/font/Devant\ Horgen.otf");
+  src: url("../public/font/Devant\ Horgen.ttf");
 }
 
 @font-face {
@@ -1188,7 +1180,7 @@ video {
 
   font-weight: bold;
 
-  src: url("../public/font/NeueLeiden-Bold.otf");
+  src: url("../public/font/NeueLeiden-Bold.ttf");
 }
 
 @font-face {
@@ -1196,7 +1188,7 @@ video {
 
   font-weight: 600;
 
-  src: url("../public/font/NeueLeiden-SemiBold.otf");
+  src: url("../public/font/NeueLeiden-SemiBold.ttf");
 }
 
 @font-face {
@@ -1204,13 +1196,13 @@ video {
 
   font-weight: 500;
 
-  src: url("../public/font/NeueLeiden-Medium.otf");
+  src: url("../public/font/NeueLeiden-Medium.ttf");
 }
 
 @font-face {
   font-family: "LEIDEN";
 
-  src: url("../public/font/NeueLeiden-Regular.otf");
+  src: url("../public/font/NeueLeiden-Regular.ttf");
 }
 
 .focus\:outline-none:focus {
@@ -1451,16 +1443,16 @@ video {
     margin-bottom: 2rem;
   }
 
+  .lg\:mt-12 {
+    margin-top: 3rem;
+  }
+
   .lg\:mt-36 {
     margin-top: 9rem;
   }
 
   .lg\:mt-8 {
     margin-top: 2rem;
-  }
-
-  .lg\:mt-12 {
-    margin-top: 3rem;
   }
 
   .lg\:w-28 {

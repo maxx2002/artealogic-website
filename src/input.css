@@ -4,28 +4,28 @@
 
 @font-face {
     font-family: "DEVANT";
-    src: url("../public/font/Devant\ Horgen.otf");
+    src: url("../public/font/Devant\ Horgen.ttf");
 }
 
 @font-face {
     font-family: "LEIDEN-BOLD";
     font-weight: bold;
-    src: url("../public/font/NeueLeiden-Bold.otf");
+    src: url("../public/font/NeueLeiden-Bold.ttf");
 }
 
 @font-face {
     font-family: "LEIDEN-SEMIBOLD";
     font-weight: 600;
-    src: url("../public/font/NeueLeiden-SemiBold.otf");
+    src: url("../public/font/NeueLeiden-SemiBold.ttf");
 }
 
 @font-face {
     font-family: "LEIDEN-MEDIUM";
     font-weight: 500;
-    src: url("../public/font/NeueLeiden-Medium.otf");
+    src: url("../public/font/NeueLeiden-Medium.ttf");
 }
 
 @font-face {
     font-family: "LEIDEN";
-    src: url("../public/font/NeueLeiden-Regular.otf");
+    src: url("../public/font/NeueLeiden-Regular.ttf");
 }
