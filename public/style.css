@@ -1072,20 +1072,24 @@ video {
   text-align: center;
 }
 
+.font-article {
+  font-family: ARTICLE, sans;
+}
+
+.font-articleBold {
+  font-family: ARTICLE-BOLD, sans;
+}
+
+.font-articleLight {
+  font-family: ARTICLE-LIGHT, sans;
+}
+
 .font-devant {
   font-family: DEVANT, sans;
 }
 
 .font-leiden {
   font-family: LEIDEN, sans;
-}
-
-.font-leidenBold {
-  font-family: LEIDEN-BOLD, sans;
-}
-
-.font-leidenSemiBold {
-  font-family: LEIDEN-SEMIBOLD, sans;
 }
 
 .text-2xl {
@@ -1151,6 +1155,11 @@ video {
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
+.text-blue {
+  --tw-text-opacity: 1;
+  color: rgb(1 62 238 / var(--tw-text-opacity));
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -1170,13 +1179,7 @@ video {
 }
 
 @font-face {
-  font-family: "DEVANT";
-
-  src: url("../public/font/Devant\ Horgen.otf");
-}
-
-@font-face {
-  font-family: "LEIDEN-BOLD";
+  font-family: "LEIDEN";
 
   font-weight: bold;
 
@@ -1184,25 +1187,25 @@ video {
 }
 
 @font-face {
-  font-family: "LEIDEN-SEMIBOLD";
+  font-family: "ARTICLE-BOLD";
 
-  font-weight: 600;
+  font-weight: bold;
 
-  src: url("../public/font/NeueLeiden-SemiBold.otf");
+  src: url("../public/font/Article-bold.otf");
 }
 
 @font-face {
-  font-family: "LEIDEN-MEDIUM";
+  font-family: "ARTICLE";
 
-  font-weight: 500;
-
-  src: url("../public/font/NeueLeiden-Medium.otf");
+  src: url("../public/font/Article-regular.otf");
 }
 
 @font-face {
-  font-family: "LEIDEN";
+  font-family: "ARTICLE-LIGHT";
 
-  src: url("../public/font/NeueLeiden-Regular.otf");
+  font-weight: lighter;
+
+  src: url("../public/font/Article-light.otf");
 }
 
 .focus\:outline-none:focus {
@@ -1463,6 +1466,10 @@ video {
     width: 75%;
   }
 
+  .lg\:w-44 {
+    width: 11rem;
+  }
+
   .lg\:w-56 {
     width: 14rem;
   }
@@ -1493,6 +1500,10 @@ video {
 
   .lg\:gap-12 {
     gap: 3rem;
+  }
+
+  .lg\:gap-14 {
+    gap: 3.5rem;
   }
 
   .lg\:gap-8 {

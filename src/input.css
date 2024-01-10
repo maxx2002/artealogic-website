@@ -3,29 +3,24 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: "DEVANT";
-    src: url("../public/font/Devant\ Horgen.otf");
-}
-
-@font-face {
-    font-family: "LEIDEN-BOLD";
+    font-family: "LEIDEN";
     font-weight: bold;
     src: url("../public/font/NeueLeiden-Bold.otf");
 }
 
 @font-face {
-    font-family: "LEIDEN-SEMIBOLD";
-    font-weight: 600;
-    src: url("../public/font/NeueLeiden-SemiBold.otf");
+    font-family: "ARTICLE-BOLD";
+    font-weight: bold;
+    src: url("../public/font/Article-bold.otf");
 }
 
 @font-face {
-    font-family: "LEIDEN-MEDIUM";
-    font-weight: 500;
-    src: url("../public/font/NeueLeiden-Medium.otf");
+    font-family: "ARTICLE";
+    src: url("../public/font/Article-regular.otf");
 }
 
 @font-face {
-    font-family: "LEIDEN";
-    src: url("../public/font/NeueLeiden-Regular.otf");
+    font-family: "ARTICLE-LIGHT";
+    font-weight: lighter;
+    src: url("../public/font/Article-light.otf");
 }

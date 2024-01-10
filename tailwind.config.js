@@ -19,9 +19,9 @@ module.exports = {
     fontFamily: {
       devant: ['DEVANT', 'sans'],
       leiden: ['LEIDEN', 'sans'],
-      leidenBold: ['LEIDEN-BOLD', 'sans'],
-      leidenSemiBold: ['LEIDEN-SEMIBOLD', 'sans'],
-      leidenMedium: ['LEIDEN-MEDIUM', 'sans'],
+      article: ['ARTICLE', 'sans'],
+      articleBold: ['ARTICLE-BOLD', 'sans'],
+      articleLight: ['ARTICLE-LIGHT', 'sans'],
     },
   },
   plugins: [],
