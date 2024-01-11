@@ -9,6 +9,7 @@ module.exports = {
     },
     colors: {
       'blue': '#013EEE',
+      'lightblue': '#E5EBFF',
       'yellow': '#FEF200',
       'green': '#37DDA0',
       'pink': '#FF00A4',
@@ -19,9 +20,10 @@ module.exports = {
     fontFamily: {
       devant: ['DEVANT', 'sans'],
       leiden: ['LEIDEN', 'sans'],
-      leidenBold: ['LEIDEN-BOLD', 'sans'],
-      leidenSemiBold: ['LEIDEN-SEMIBOLD', 'sans'],
-      leidenMedium: ['LEIDEN-MEDIUM', 'sans'],
+      leidenRegular: ['LEIDEN-REGULAR', 'sans'],
+      article: ['ARTICLE', 'sans'],
+      articleBold: ['ARTICLE-BOLD', 'sans'],
+      articleLight: ['ARTICLE-LIGHT', 'sans'],
     },
   },
   plugins: [],

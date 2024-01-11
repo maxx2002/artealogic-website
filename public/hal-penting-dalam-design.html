@@ -7,11 +7,13 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="img/icon.webp">
 </head>
-<body class="text-white bg-black font-leiden">
-    <nav class="flex items-center justify-between px-4 py-2 md:px-12 xl:px-16">
-        <img src="img/logo-white.webp" alt="" class="w-28 md:w-40 lg:w-56">
+<body class="overflow-x-hidden font-article">
+    <nav class="flex items-center justify-between px-4 py-2 text-white md:px-12 xl:px-16 bg-blue font-leiden">
+        <a href="index.html">
+            <img src="img/logo-white.webp" alt="" class="w-28 md:w-40 lg:w-44">
+        </a>
 
-        <div class="items-center hidden gap-8 text-sm md:flex lg:gap-12">
+        <div class="items-center hidden gap-8 text-sm md:flex lg:gap-14">
             <a href="index.html">HOME</a>
             <a href="about.html">ABOUT</a>
             <a href="works.html">WORKS</a>
@@ -26,7 +28,7 @@
             </svg>
         </div>
     </nav>
-    <div id="menu" class="hidden mb-4">
+    <div id="menu" class="hidden my-4">
         <div class="flex flex-col items-center gap-2 mb-4 text-sm">
             <a href="index.html">HOME</a>
             <a href="about.html">ABOUT</a>
@@ -38,20 +40,27 @@
     </div>
 
     <div class="px-4 mt-4 mb-20 md:mt-10 md:px-12 lg:px-16">
+        <button onclick="history.back()" class="mb-4">
+            <div class="flex items-center gap-2">
+                <img src="img/back.webp" alt="" class="w-2">
+                <h2 class="text-blue font-leidenRegular md:text-lg lg:text-xl">KEMBALI</h2>
+            </div>
+        </button>
+        
         <img src="img/perspective/sebelum-kamu.webp" alt="" class="w-full">
 
-        <h1 class="my-4 text-5xl text-center md:text-6xl lg:my-8 lg:text-8xl font-devant md:text-left">DUDUK DEPAN LAPTOP BERJAM-JAM TAPI ARTBOARD MASIH KOSONG?</h1>
-        <p class="md:text-xl lg:text-2xl">
+        <h1 class="my-4 text-4xl text-center lg:text-7xl lg:my-8 font-leiden md:text-left">DUDUK DEPAN LAPTOP BERJAM-JAM TAPI ARTBOARD MASIH KOSONG?</h1>
+        <p class="lg:text-xl">
             Walaupun peran komputer sangat penting dalam mengedit dan mempersiapkan ide sebelum diumumkan kepada publik, namun, dalam menciptakan ide kreatif yang orisinal, diperlukan keterlibatan langsung tanpa bergantung sepenuhnya pada laptop. Terlalu bergantung pada teknologi dapat meningkatkan risiko munculnya sifat perfeksionis yang kaku, dengan peluang besar menghapus ide sebelum ide tersebut benar-benar sempat terbentuk secara menyeluruh. Oleh karena itu, terlibat secara langsung dalam proses kreatif, tanpa terlalu bergantung pada perangkat komputer, tidak hanya memperluas ruang kreativitas tetapi juga memungkinkan hasil yang lebih otentik dan dalam.<br/><br/>
             Dikutip dari buku “Steal Like an Artist” oleh Austin Kleon dia membagi tempat kerjanya saat membuat manual dan digital. Baginya langsung membuatnya di dalam komputernya, ia kesulitan untuk menemukan ide karena menjadi perfeksionis dengan adanya fitur menghapus serta selalu memilih referensi yang cocok namun ketika melihat referensi lainnya menjadi berubah pikiran kembali. Maka dari itu ia membagi cara kerjanya dengan membuatnya dengan manual di mana meja tersebut hanya berisikan peralatan menggambar dan ia mengekspresikan hal-hal yang menarik di sana. Selepas dari proses manual ia melanjutkannya dengan megeksekusi menjadi digital. Dengan begitulah proses kreatif berjalan dan menghasilkan hasil yang otentik serta eksploratif.
         </p>
     </div>
 
-    <footer class="bg-blue">
+    <footer class="text-white bg-blue font-articleLight">
         <div class="p-4 md:p-16">
             <img src="img/logo-white.webp" alt="" class="w-40 md:w-52">
             
-            <div class="grid grid-cols-2 pt-8">
+            <div class="flex grid-cols-2 gap-16 pt-8 md:grid md:gap-0">
                 <div class="flex items-end gap-0 md:gap-32">
                     <div class="flex-col hidden gap-4 md:flex">
                         <a href="about.html">About</a>
@@ -61,7 +70,7 @@
                     </div>
 
                     <div class="flex flex-col gap-4">
-                        <p class="font-leidenBold">Reach us</p>
+                        <p class="font-articleBold">Reach us</p>
                         <a href="https://instagram.com/artealogic?igshid=YTQwZjQ0NmI0OA%3D%3D&utm_source=qr" class="text-sm md:text-base" target="_blank">Instagram</a>
                         <a href="https://www.behance.net/artealobrandin" class="text-sm md:text-base" target="_blank">Behance</a>
                         <a href="https://www.facebook.com/profile.php?id=61554681953296" class="text-sm md:text-base" target="_blank">Facebook</a>
@@ -70,7 +79,7 @@
                 </div>
 
                 <div class="flex flex-col gap-4 pl-0 md:pl-20 lg:pl-0">
-                    <p class="font-leidenBold">Business Inquiries</p>
+                    <p class="font-articleBold">Business Inquiries</p>
                     <a href="https://wa.me/0811503976" target="_blank" class="flex items-center gap-2">
                         <img src="img/whatsapp.webp" alt="" class="w-6">
                         <span class="text-sm md:text-base">+62 811503976</span>

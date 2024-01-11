@@ -7,11 +7,13 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="img/icon.webp">
 </head>
-<body class="text-white bg-black font-leiden">
-    <nav class="flex items-center justify-between px-4 py-2 md:px-12 xl:px-16">
-        <img src="img/logo-white.webp" alt="" class="w-28 md:w-40 lg:w-56">
+<body class="overflow-x-hidden font-article">
+    <nav class="flex items-center justify-between px-4 py-2 text-white md:px-12 xl:px-16 bg-blue font-leiden">
+        <a href="index.html">
+            <img src="img/logo-white.webp" alt="" class="w-28 md:w-40 lg:w-44">
+        </a>
 
-        <div class="items-center hidden gap-8 text-sm md:flex lg:gap-12">
+        <div class="items-center hidden gap-8 text-sm md:flex lg:gap-14">
             <a href="index.html">HOME</a>
             <a href="about.html">ABOUT</a>
             <a href="works.html">WORKS</a>
@@ -26,7 +28,7 @@
             </svg>
         </div>
     </nav>
-    <div id="menu" class="hidden mb-4">
+    <div id="menu" class="hidden my-4">
         <div class="flex flex-col items-center gap-2 mb-4 text-sm">
             <a href="index.html">HOME</a>
             <a href="about.html">ABOUT</a>
@@ -38,15 +40,22 @@
     </div>
 
     <div class="px-4 mt-4 mb-20 md:mt-10 md:px-12 lg:px-16">
+        <button onclick="history.back()" class="mb-4">
+            <div class="flex items-center gap-2">
+                <img src="img/back.webp" alt="" class="w-2">
+                <h2 class="text-blue font-leidenRegular md:text-lg lg:text-xl">KEMBALI</h2>
+            </div>
+        </button>
+
         <img src="img/works/rhomulus.webp" alt="" class="w-full">
 
         <div class="grid grid-cols-1 gap-8 mt-4 md:mt-16 md:grid-cols-3">
             <div>
-                <h1 class="text-6xl md:text-8xl font-devant">RHOMULUS</h1>
-                <p class="mt-2 text-2xl font-leidenSemiBold">Sportwear</p>
+                <h1 class="text-4xl md:text-6xl lg:text-7xl font-leiden">RHOMULUS</h1>
+                <p class="mt-2 text-lg md:text-2xl font-articleBold">Sportwear</p>
             </div>
             <div class="col-span-2">
-                <p class="text-base md:text-xl lg:text-2xl">
+                <p class="text-base lg:text-xl">
                     Rhomulus adalah sebuah merek sportswear yang tidak hanya menghadirkan produk berkualitas tinggi, tetapi juga mengandung makna mendalam dalam setiap rancangan dan konsepnya. Sebagaimana Romulus menjadi pendiri Kekaisaran Romawi, nama ini mengambil inspirasi dari kekuatan dan kecepatan yang dimiliki oleh serigala, hewan yang melambangkan semangat dan ketangguhan.<br/><br/>
                     Dengan menggabungkan warisan kekuatan Romulus dan semangat serigala, perusahaan kami berkomitmen untuk memberikan pengalaman berbelanja yang tidak hanya memenuhi kebutuhan fungsional, tetapi juga membangkitkan semangat juang dan keberanian dalam setiap individu yang memilih produk kami. Selamat bergabung dengan komunitas kami yang penuh semangat, di mana kekuatan dan kecepatan menjadi pendorong utama kesuksesan setiap petualangan olahraga Anda.
                 </p>
@@ -66,17 +75,17 @@
             </div>
             
             <div class="col-span-2">
-                <h4 class="mb-4 text-base md:text-xl lg:text-2xl font-leidenBold">Arahan Visual</h4>
-                <p class="text-base leading-normal md:text-xl lg:text-2xl">Rhomulus Sportswear, tempat di mana kekuatan dan semangat bersatu dalam desain yang menginspirasi. Seiring dengan warisan Romulus, pendiri Kekaisaran Romawi, kami memadukan kekuatan dan kecepatan yang terkandung dalam simbol serigala ke dalam identitas merek kami. Dengan huruf "R" yang kokoh dan berkesan bold, mencerminkan keteguhan dan konsistensi, kami menghadirkan desain yang merepresentasikan semangat juang para pecinta olahraga. Integrasi sempurna antara huruf dan bentuk serigala memberikan identitas visual yang kuat dan unik. Kami menawarkan lebih dari sekadar pakaian olahraga berkualitas tinggi; kami memberikan pengalaman berbelanja yang membangkitkan semangat dan keberanian dalam setiap individu yang memilih produk Rhomulus.</p>
+                <h4 class="mb-4 text-lg md:text-xl lg:text-2xl font-articleBold">Arahan Visual</h4>
+                <p class="text-base leading-normal lg:text-xl">Rhomulus Sportswear, tempat di mana kekuatan dan semangat bersatu dalam desain yang menginspirasi. Seiring dengan warisan Romulus, pendiri Kekaisaran Romawi, kami memadukan kekuatan dan kecepatan yang terkandung dalam simbol serigala ke dalam identitas merek kami. Dengan huruf "R" yang kokoh dan berkesan bold, mencerminkan keteguhan dan konsistensi, kami menghadirkan desain yang merepresentasikan semangat juang para pecinta olahraga. Integrasi sempurna antara huruf dan bentuk serigala memberikan identitas visual yang kuat dan unik. Kami menawarkan lebih dari sekadar pakaian olahraga berkualitas tinggi; kami memberikan pengalaman berbelanja yang membangkitkan semangat dan keberanian dalam setiap individu yang memilih produk Rhomulus.</p>
             </div>
         </div>
     </div>
 
-    <footer class="bg-blue">
+    <footer class="text-white bg-blue font-articleLight">
         <div class="p-4 md:p-16">
             <img src="img/logo-white.webp" alt="" class="w-40 md:w-52">
             
-            <div class="grid grid-cols-2 pt-8">
+            <div class="flex grid-cols-2 gap-16 pt-8 md:grid md:gap-0">
                 <div class="flex items-end gap-0 md:gap-32">
                     <div class="flex-col hidden gap-4 md:flex">
                         <a href="about.html">About</a>
@@ -86,7 +95,7 @@
                     </div>
 
                     <div class="flex flex-col gap-4">
-                        <p class="font-leidenBold">Reach us</p>
+                        <p class="font-articleBold">Reach us</p>
                         <a href="https://instagram.com/artealogic?igshid=YTQwZjQ0NmI0OA%3D%3D&utm_source=qr" class="text-sm md:text-base" target="_blank">Instagram</a>
                         <a href="https://www.behance.net/artealobrandin" class="text-sm md:text-base" target="_blank">Behance</a>
                         <a href="https://www.facebook.com/profile.php?id=61554681953296" class="text-sm md:text-base" target="_blank">Facebook</a>
@@ -95,7 +104,7 @@
                 </div>
 
                 <div class="flex flex-col gap-4 pl-0 md:pl-20 lg:pl-0">
-                    <p class="font-leidenBold">Business Inquiries</p>
+                    <p class="font-articleBold">Business Inquiries</p>
                     <a href="https://wa.me/0811503976" target="_blank" class="flex items-center gap-2">
                         <img src="img/whatsapp.webp" alt="" class="w-6">
                         <span class="text-sm md:text-base">+62 811503976</span>
