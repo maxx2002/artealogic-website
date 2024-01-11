@@ -9,6 +9,11 @@
 }
 
 @font-face {
+    font-family: "LEIDEN-REGULAR";
+    src: url("../public/font/NeueLeiden-Regular.otf");
+}
+
+@font-face {
     font-family: "ARTICLE-BOLD";
     font-weight: bold;
     src: url("../public/font/Article-bold.otf");

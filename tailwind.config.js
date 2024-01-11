@@ -20,6 +20,7 @@ module.exports = {
     fontFamily: {
       devant: ['DEVANT', 'sans'],
       leiden: ['LEIDEN', 'sans'],
+      leidenRegular: ['LEIDEN-REGULAR', 'sans'],
       article: ['ARTICLE', 'sans'],
       articleBold: ['ARTICLE-BOLD', 'sans'],
       articleLight: ['ARTICLE-LIGHT', 'sans'],
